@@ -1,6 +1,7 @@
 # MyCreativity
 
 The aim was to create an application where upcoming artists could showcase their work to both fans and possible sponsors. An artist have the option of uploading an image, a video, or audio. There are options available for a selected 'art' such as commenting. The application functions but not 100%.
+It is worth mentioning my friend Katlego as a collaborator to this project.
 
 ## Getting Started
 
