@@ -1,10 +1,10 @@
 # MyCreativity
 
-A new Flutter project.
+The aim was to create an application where upcoming artists could showcase their work to both fans and possible sponsors. An artist have the option of uploading an image, a video, or audio. There are options available for a selected 'art' such as commenting. The application functions but not 100%.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This Flutter application project can be started/ran simply by running the main.dart method.
 
 A few resources to get you started if this is your first Flutter project:
 
