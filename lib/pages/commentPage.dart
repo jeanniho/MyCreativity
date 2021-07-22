@@ -62,7 +62,8 @@ class _CommentPageState extends State<CommentPage> {
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [Colors.teal[200], Colors.orange[300]]),
+              colors: [Colors.teal[200], Colors.orange[300]]
+              ),
         ),
         padding: EdgeInsets.all(20),
         child: Column(

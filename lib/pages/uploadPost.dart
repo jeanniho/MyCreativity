@@ -56,7 +56,8 @@ class _UploadPostState extends State<UploadPost> {
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [Colors.lightGreen[400], Colors.deepPurpleAccent[400]]),
+              colors: [Colors.lightGreen[400], Colors.deepPurpleAccent[400]]
+              ),
         ),
         height: MediaQuery.of(context).size.height / 2,
         child: Center(
@@ -238,7 +239,8 @@ class _UploadPostState extends State<UploadPost> {
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [Colors.pink[400], Colors.lightGreen[400]]),
+              colors: [Colors.pink[400], Colors.lightGreen[400]]
+              ),
         ),
         padding: EdgeInsets.all(20),
         child: Column(
@@ -279,7 +281,8 @@ class _UploadPostState extends State<UploadPost> {
                     colors: [
                       Colors.lightGreen[400],
                       Colors.deepPurpleAccent[400]
-                    ]),
+                    ]
+                    ),
               ),
               height: MediaQuery.of(context).size.height / 2,
               child: Center(

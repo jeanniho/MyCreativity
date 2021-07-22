@@ -19,22 +19,26 @@ class _MyPostState extends State<MyPost> {
 
   @override
   void initState() {
-    _controller = VideoPlayerController.network(
-      widget.post.data()["url"],
-    );
-    // Initialize the controller and store the Future for later use.
-    _initializeVideoPlayerFuture = _controller.initialize();
+    if (widget.type == "video") {
+      _controller = VideoPlayerController.network(
+        widget.post.data()["url"],
+      );
+      // Initialize the controller and store the Future for later use.
+      _initializeVideoPlayerFuture = _controller.initialize();
 
-    // Use the controller to loop the video.
-    _controller.setLooping(true);
+      // Use the controller to loop the video.
+      _controller.setLooping(true);
 
-    super.initState();
+      super.initState();
+    }
   }
 
   @override
   void dispose() {
-    _controller.dispose();
-    super.dispose();
+    if (widget.type == "video") {
+      _controller.dispose();
+      super.dispose();
+    }
   }
 
   @override

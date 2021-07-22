@@ -75,7 +75,8 @@ class _MusicDetailPageState extends State<MusicDetailPage> {
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [Colors.blue[100], Colors.pink[600]]),
+              colors: [Colors.blue[100], Colors.pink[600]]
+              ),
         ),
         child: Column(
           children: <Widget>[

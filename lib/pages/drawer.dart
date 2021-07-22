@@ -34,7 +34,8 @@ class _signedInDrawerState extends State<signedInDrawer> {
             gradient: LinearGradient(
                 begin: Alignment.topLeft, end: Alignment.bottomRight,
                 //stops: [0.1,0.4]
-                colors: [Colors.pink[400], Colors.lightGreen[400]]),
+                colors: [Colors.pink[400], Colors.lightGreen[400]]
+                ),
           ),
           accountEmail: email,
           accountName: name,

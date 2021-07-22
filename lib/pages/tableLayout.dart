@@ -60,7 +60,8 @@ class _TableLayoutState extends State<TableLayout> {
             gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
-                colors: [Colors.lightGreen[500], Colors.pink[400]]),
+                colors: [Colors.lightGreen[500], Colors.pink[400]]
+                ),
           ),
           child: TabBarView(children: <Widget>[
             Container(

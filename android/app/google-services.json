@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "475327752222",
-    "firebase_url": "https://mycreativity-821c8.firebaseio.com",
-    "project_id": "mycreativity-821c8",
-    "storage_bucket": "mycreativity-821c8.appspot.com"
+    "project_number": "498022869459",
+    "project_id": "mycreativity-5f4be",
+    "storage_bucket": "mycreativity-5f4be.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:475327752222:android:6db8c674f82121735e660f",
+        "mobilesdk_app_id": "1:498022869459:android:9dfb6731e2f99a27dba726",
         "android_client_info": {
-          "package_name": "com.chillwithus.MyCreativity"
+          "package_name": "com.example.MyCreativity"
         }
       },
       "oauth_client": [
         {
-          "client_id": "475327752222-10ej6fha6tl58cc62k9qnjp2jtbtlpfi.apps.googleusercontent.com",
+          "client_id": "498022869459-gv5cge0arl2k5vaim20588ccug01tuih.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAp0CmsRvWa_12WRUYch8tjlH7_SBuX_7M"
+          "current_key": "AIzaSyDqk7IGMsMr5_O15mjKBJfYZLmjlSn7N6o"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "475327752222-10ej6fha6tl58cc62k9qnjp2jtbtlpfi.apps.googleusercontent.com",
+              "client_id": "498022869459-gv5cge0arl2k5vaim20588ccug01tuih.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
